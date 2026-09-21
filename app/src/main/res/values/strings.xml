@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NEXAR</string>
+    <string name="accessibility_service_label">NEXAR Accessibility</string>
+    <string name="accessibility_service_description">Allows NEXAR to interact with apps on your behalf, including reading screen content and performing UI actions you request.</string>
+    <string name="notification_listener_label">NEXAR Notifications</string>
+    <string name="notification_channel_name">NEXAR Assistant</string>
+    <string name="notification_channel_description">NEXAR AI Assistant is running</string>
+    <string name="notification_title">NEXAR is active</string>
+    <string name="notification_text">Your AI assistant is ready</string>
+</resources>
