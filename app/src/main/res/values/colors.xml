@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nexar_primary">#00D4FF</color>
+    <color name="nexar_background">#050A14</color>
+    <color name="nexar_surface">#0A1628</color>
+    <color name="nexar_accent">#0066CC</color>
+    <color name="nexar_glow">#1A4AFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

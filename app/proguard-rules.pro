@@ -1,0 +1,11 @@
+# Add project specific ProGuard rules here.
+-keep class com.nexar.assistant.** { *; }
+-keep class com.google.ai.client.generativeai.** { *; }
+-dontwarn com.google.ai.client.generativeai.**
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.google.gson.** { *; }
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+-keepclassmembers class ** { @com.google.gson.annotations.SerializedName <fields>; }
