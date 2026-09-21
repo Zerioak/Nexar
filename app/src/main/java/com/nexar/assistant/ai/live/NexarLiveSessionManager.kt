@@ -205,7 +205,7 @@ Tool use: When user requests actions, always use the appropriate tool. Report ac
                         })
                     })
                 })
-                if (toolDeclarations.isNotEmpty()) {
+                if (toolDeclarations.length() > 0) {
                     put("tools", JSONArray().apply {
                         put(JSONObject().apply {
                             put("function_declarations", toolDeclarations)

@@ -92,7 +92,7 @@ class NexarNotificationListenerService : NotificationListenerService() {
         }
     }
 
-    fun getActiveNotifications(): List<NotificationInfo> {
+    fun getCachedNotifications(): List<NotificationInfo> {
         return notifications.values
             .sortedByDescending { it.timestamp }
             .take(20) // Limit to 20 most recent

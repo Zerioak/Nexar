@@ -13,7 +13,7 @@ class NexarNotificationRepository {
 
     fun getNotifications(appFilter: String? = null): List<NotificationInfo> {
         val service = NexarNotificationListenerService.getInstance() ?: return emptyList()
-        val all = service.getActiveNotifications()
+        val all = service.getCachedNotifications()
         return if (appFilter != null) {
             all.filter { it.appName.lowercase().contains(appFilter.lowercase()) }
         } else {
